@@ -1,6 +1,6 @@
-import React from 'react';
-import Employee from './pages/Employee';
-import './App.css';
+import React from "react";
+import Employee from "./pages/Employee";
+import "./App.css";
 
 function App() {
   return (
