@@ -8,36 +8,37 @@ const EmployeeData = (props) => {
         label: "Name",
         field: "name",
         sort: "asc",
-        width: 150,
+        width: 500,
       },
       {
         label: "Email",
         field: "email",
         sort: "asc",
-        width: 270,
+        width: 500,
       },
       {
         label: "Image",
         field: "image",
         sort: "asc",
-        width: 200,
+        width: 500,
       },
       {
         label: "Phone",
         field: "phone",
         sort: "asc",
-        width: 200,
+        width: 300,
       },
       {
         label: "DOB",
         field: "dob",
         sort: "asc",
-        width: 200,
-      },
+        width: 250,
+      }
     ],
+    rows:props.employees
   };
   console.log("Props", props);
-  return <MDBDataTable striped />;
+  return <MDBDataTable sorting={true} striped bordered data={data} />;
 };
 
 export default EmployeeData;
