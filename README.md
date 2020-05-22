@@ -1,6 +1,7 @@
 ## react-employee-directory
 
-![Screenshot (47)](https://user-images.githubusercontent.com/58678985/78611016-e124f580-781a-11ea-9bfc-ac34cb6b063f.png)
+![#1](https://user-images.githubusercontent.com/58678985/82691717-32dedf00-9c13-11ea-87b0-743f86d8207a.png)
+
 
 
 ### Description:
